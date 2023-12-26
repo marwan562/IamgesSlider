@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .carousel {
+      @apply  w-[60%] m-auto cursor-grab overflow-hidden
+    }
+    
+    .carousel-item {
+      @apply  min-h-[40rem]  min-w-[30rem] p-[40px]
+    }
+
+    .item-img {
+      @apply  pointer-events-none w-[100%] h-[100%]  rounded-3xl
+    }
+}
